@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 1.5;
     color: #172b4d;
     background: #ffffff;
@@ -143,10 +143,14 @@ a {
 }
 
 .nav-list a:hover,
-.nav-list a:focus,
-.nav-list a.active {
+.nav-list a:focus {
     background: rgba(244, 211, 94, 0.12);
     color: #f4d35e;
+}
+
+.nav-list a.active {
+    background: #f4d35e;
+    color: #1d3557;
 }
 
 /* =========================
