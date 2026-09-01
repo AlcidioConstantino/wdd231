@@ -1,0 +1,106 @@
+@media screen and (min-width: 700px) {
+
+    /* =========================
+       HEADER
+       ========================= */
+
+    .header-inner {
+        gap: 1rem;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .site-nav {
+        position: static;
+        display: block;
+        flex: 1;
+        background: transparent;
+        border-top: none;
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 0.25rem;
+    }
+
+    .nav-list li + li {
+        border-top: none;
+    }
+
+    .nav-list a {
+        padding: 0.75rem 1rem;
+        border-radius: 0.5rem;
+    }
+
+
+    /* =========================
+       MAIN LAYOUT
+       ========================= */
+
+    main {
+        padding: 1.5rem;
+    }
+
+    main > h1 {
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    }
+
+
+    /* =========================
+       HERO + OVERVIEW
+       ========================= */
+
+    .hero .section-inner {
+        padding: 2rem;
+    }
+
+    .overview .section-inner {
+        padding: 2rem;
+    }
+
+
+    /* =========================
+       COURSE SECTION
+       ========================= */
+
+    .course-filters {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+    }
+
+    .filter-button {
+        min-width: 130px;
+    }
+
+
+    /* =========================
+       COURSE CARDS
+       ========================= */
+
+    .course-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .course-card {
+        min-height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+
+    /* =========================
+       FOOTER
+       ========================= */
+
+    footer {
+        padding: 2rem;
+    }
+}

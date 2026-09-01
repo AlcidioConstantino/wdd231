@@ -5,29 +5,186 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description" content="WDD 231 Frontend Web Development course work by Alcidio Massanganhe.">
-
     <meta name="author" content="Alcidio Massanganhe">
 
     <title>WDD 231: Frontend Web Development I - Alcidio Massanganhe</title>
 
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/date.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <h1>WDD 231: Frontend Web Development I</h1>
+
+    <header class="site-header">
+        <div class="header-inner">
+
+            <!-- Site logo -->
+            <a class="logo" href="index.html" aria-label="Home page">
+                <svg viewBox="0 0 64 64" role="img" aria-label="WDD 231 logo">
+                    <path d="M32 6 8 18v28l24 12 24-12V18L32 6Zm0 6.5 18.5 9.2v19.6L32 50.5 13.5 41.3V21.7L32 12.5Zm-4.7 9.3h9.4v4.9h-9.4v-4.9Zm0 8.1h9.4v4.9h-9.4v-4.9Zm-4.8 6.4h18.9v4.9H22.5v-4.9Z"/>
+                </svg>
+            </a>
+
+            <!-- Student information -->
+            <div class="brand">
+                <span class="course-name">WDD 231</span>
+                <span class="student-name">Alcidio Massanganhe</span>
+            </div>
+
+            <!-- Mobile menu button -->
+            <button
+                class="nav-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="primary-nav"
+                aria-label="Open menu">
+
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <!-- Main navigation -->
+            <nav
+                id="primary-nav"
+                class="site-nav"
+                aria-label="Main navigation">
+
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="chamber.html">Chamber</a>
+                    </li>
+
+                    <li>
+                        <a href="final.html">Final</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
     </header>
 
+
     <main>
-        <p>Welcome to my WDD 231 course website.</p>
+
+        <h1>Home</h1>
+
+        <!-- Section 1 -->
+        <section class="hero section-block">
+            <div class="section-inner">
+                <p class="eyebrow">Frontend Web Development I</p>
+
+                <h2>Building accessible and responsive web experiences</h2>
+
+                <p>
+                    Welcome to my WDD 231 course website. This page highlights
+                    the structure and learning journey of the course while
+                    showcasing my progress as a web developer.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Section 2 -->
+        <section class="overview section-block">
+            <div class="section-inner">
+                <h2>Course Overview</h2>
+
+                <p>
+                    This course introduces core web technologies, including
+                    HTML, CSS, and JavaScript. The main focus is to create
+                    clean, usable, and responsive interfaces while developing
+                    practical front-end skills.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Section 3 -->
+        <section class="courses section-block">
+            <div class="section-inner">
+
+                <h2>Web and Computer Programming Certificate</h2>
+
+                <div class="course-filters">
+                    <button
+                        id="all-courses"
+                        class="filter-button active"
+                        type="button">
+                        All Courses
+                    </button>
+
+                    <button
+                        id="wdd-courses"
+                        class="filter-button"
+                        type="button">
+                        WDD Courses
+                    </button>
+
+                    <button
+                        id="cse-courses"
+                        class="filter-button"
+                        type="button">
+                        CSE Courses
+                    </button>
+                </div>
+
+                <p class="credits">
+                    Credits:
+                    <span id="total-credits">0</span>
+                </p>
+
+                <div
+                    id="course-list"
+                    class="course-list"
+                    aria-live="polite">
+                </div>
+
+            </div>
+        </section>
+
     </main>
 
+
     <footer>
-        <p>&copy; 2026 Alcidio Massanganhe</p>
+
+        <div class="social-links">
+            <a
+                href="https://github.com/AlcidioConstantino"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub">
+                GitHub
+            </a>
+
+            <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn">
+                LinkedIn
+            </a>
+        </div>
+
+        <p>
+            &copy;
+            <span id="currentyear"></span>
+            Alcidio Massanganhe,
+            Mozambique
+        </p>
+
+        <p id="lastModified"></p>
+
     </footer>
+
 </body>
 </html>
-
-
-
