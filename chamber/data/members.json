@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Mozambique Business Solutions",
+        "address": "Av. da Marginal, Maputo, Mozambique",
+        "phone": "+258 84 123 4567",
+        "website": "https://example.com",
+        "image": "mozambique-business-solutions.jpg",
+        "membership": 3,
+        "description": "Business consulting and professional development services."
+    },
+    {
+        "name": "Maputo Digital Services",
+        "address": "Av. Julius Nyerere, Maputo, Mozambique",
+        "phone": "+258 85 234 5678",
+        "website": "https://example.com",
+        "image": "maputo-digital-services.jpg",
+        "membership": 3,
+        "description": "Digital solutions, web development, and technology services."
+    },
+    {
+        "name": "Inhambane Tourism Center",
+        "address": "Rua da Independência, Inhambane, Mozambique",
+        "phone": "+258 86 345 6789",
+        "website": "https://example.com",
+        "image": "inhambane-tourism-center.jpg",
+        "membership": 2,
+        "description": "Tourism, travel, and hospitality services in Inhambane."
+    },
+    {
+        "name": "Maxixe Trading Company",
+        "address": "Av. Samora Machel, Maxixe, Mozambique",
+        "phone": "+258 87 456 7890",
+        "website": "https://example.com",
+        "image": "maxixe-trading-company.jpg",
+        "membership": 2,
+        "description": "Wholesale and retail business serving local communities."
+    },
+    {
+        "name": "MZ Accounting Services",
+        "address": "Av. 25 de Setembro, Maputo, Mozambique",
+        "phone": "+258 84 567 8901",
+        "website": "https://example.com",
+        "image": "mz-accounting-services.jpg",
+        "membership": 1,
+        "description": "Accounting, financial management, and business support."
+    },
+    {
+        "name": "Inhambane Construction Group",
+        "address": "Rua da Praia, Inhambane, Mozambique",
+        "phone": "+258 85 678 9012",
+        "website": "https://example.com",
+        "image": "inhambane-construction-group.jpg",
+        "membership": 1,
+        "description": "Construction and building services for residential and commercial projects."
+    },
+    {
+        "name": "Mozambique Fresh Foods",
+        "address": "Av. Eduardo Mondlane, Maputo, Mozambique",
+        "phone": "+258 86 789 0123",
+        "website": "https://example.com",
+        "image": "mozambique-fresh-foods.jpg",
+        "membership": 2,
+        "description": "Fresh food distribution and agricultural products."
+    }
+]
