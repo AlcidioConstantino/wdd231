@@ -40,7 +40,7 @@ function displayMembers(members) {
 
         card.innerHTML = `
             <img
-                src="../images/${member.image}"
+                src="images/${member.image}"
                 alt="${member.name}"
                 loading="lazy"
             >

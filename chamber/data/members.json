@@ -4,7 +4,7 @@
         "address": "Av. da Marginal, Maputo, Mozambique",
         "phone": "+258 84 123 4567",
         "website": "https://example.com",
-        "image": "emprese1.jpg.png",
+        "image": "emprese1.jpg",
         "membership": 3,
         "description": "Business consulting and professional development services."
     },
@@ -13,7 +13,7 @@
         "address": "Av. Julius Nyerere, Maputo, Mozambique",
         "phone": "+258 85 234 5678",
         "website": "https://example.com",
-        "image": "emprese2.jpg.png",
+        "image": "emprese2.jpg",
         "membership": 3,
         "description": "Digital solutions, web development, and technology services."
     },
@@ -22,7 +22,7 @@
         "address": "Rua da Independência, Inhambane, Mozambique",
         "phone": "+258 86 345 6789",
         "website": "https://example.com",
-        "image": "empresa3.jpg.png",
+        "image": "empresa3.jpg",
         "membership": 2,
         "description": "Tourism, travel, and hospitality services in Inhambane."
     },
@@ -31,7 +31,7 @@
         "address": "Av. Samora Machel, Maxixe, Mozambique",
         "phone": "+258 87 456 7890",
         "website": "https://example.com",
-        "image": "empresa4.jpg.png",
+        "image": "empresa4.jpg",
         "membership": 2,
         "description": "Wholesale and retail business serving local communities."
     },
@@ -40,7 +40,7 @@
         "address": "Av. 25 de Setembro, Maputo, Mozambique",
         "phone": "+258 84 567 8901",
         "website": "https://example.com",
-        "image": "empresa5.jpg.png",
+        "image": "empresa5.jpg",
         "membership": 1,
         "description": "Accounting, financial management, and business support."
     },
@@ -49,7 +49,7 @@
         "address": "Rua da Praia, Inhambane, Mozambique",
         "phone": "+258 85 678 9012",
         "website": "https://example.com",
-        "image": "empresa6.jpg.png",
+        "image": "empresa6.jpg",
         "membership": 1,
         "description": "Construction and building services for residential and commercial projects."
     },
@@ -58,7 +58,7 @@
         "address": "Av. Eduardo Mondlane, Maputo, Mozambique",
         "phone": "+258 86 789 0123",
         "website": "https://example.com",
-        "image": "empresa7.jpg.png",
+        "image": "empresa7.jpg",
         "membership": 2,
         "description": "Fresh food distribution and agricultural products."
     }
