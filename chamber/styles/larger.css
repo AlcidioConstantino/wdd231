@@ -13,8 +13,14 @@
     /* Navigation */
 
     .site-nav {
+        display: block;
         margin-top: 0;
     }
+
+    .nav-toggle { display: none; }
+    .home-grid { grid-template-columns: repeat(2, 1fr); }
+    .spotlights-container { grid-column: 1 / -1; }
+    .spotlight-grid { grid-template-columns: repeat(3, 1fr); }
 
     .nav-list {
         display: flex;

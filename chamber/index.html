@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chamber of Commerce | Home</title>
+  <meta name="description" content="Chamber of Commerce: local events, weather, and featured businesses.">
+  <meta name="author" content="Alcidio Massanganhe">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/index.js" defer></script>
+</head>
+<body>
+  <!-- Header and navigation -->
+  <header class="site-header">
+    <div class="header-inner">
+      <img src="images/chamber-image.jpg" alt="Chamber logo" width="80" height="80">
+      <h1>Chamber of Commerce</h1>
+    </div>
+    <button id="menu-button" class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" class="site-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="#">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="home-grid">
+    <!-- Hero with call to action -->
+    <section class="hero">
+      <img src="images/chamber-image.jpg" alt="View of the community served by the Chamber of Commerce" width="1200" height="600" fetchpriority="high">
+      <div class="cta-overlay">
+        <h2>Grow Your Business</h2>
+        <a href="join.html" class="cta-btn">Join the Chamber</a>
+      </div>
+    </section>
+
+    <!-- Current events -->
+    <section class="card events">
+      <h2>Upcoming Events</h2>
+      <ul>
+        <li><strong>October 15:</strong> Local Business Fair</li>
+        <li><strong>October 22:</strong> Digital Marketing Workshop</li>
+      </ul>
+    </section>
+
+    <!-- Weather forecast -->
+    <section class="card weather">
+      <h2>Local Weather</h2>
+      <div id="current-weather">
+        <!-- Populated by JavaScript -->
+      </div>
+      <h3>3-Day Forecast</h3>
+      <div id="forecast">
+        <!-- Populated by JavaScript -->
+      </div>
+    </section>
+
+    <!-- Business spotlights -->
+    <section class="spotlights-container">
+      <h2>Featured Members</h2>
+      <div id="spotlights" class="spotlight-grid">
+        <!-- Gold and Silver member cards rendered by JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Chamber of Commerce | Alcidio Massanganhe</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>

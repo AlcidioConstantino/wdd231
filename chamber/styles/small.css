@@ -153,3 +153,29 @@ footer {
     color: white;
     text-align: center;
 }
+
+/* Chamber home page */
+.brand { color: white; }
+.site-header h1 { color: white; margin: 0; text-align: left; }
+.nav-toggle { background: transparent; border: 1px solid white; border-radius: 4px; color: white; cursor: pointer; font-size: 1rem; line-height: 1; padding: .5rem; }
+.site-nav { display: none; }
+.site-nav.open { display: block; }
+.home-grid { display: grid; gap: 1.25rem; }
+.hero { position: relative; grid-column: 1 / -1; overflow: hidden; border-radius: 8px; }
+.hero img { display: block; width: 100%; height: auto; min-height: 260px; object-fit: cover; }
+.cta-overlay { position: absolute; inset: auto 1rem 1rem; max-width: 38rem; padding: 1rem; background: rgb(29 53 87 / .92); color: white; border-radius: 6px; }
+.cta-overlay h2 { margin: 0; }
+.cta-btn { display: inline-block; padding: .7rem 1rem; background: #f4d35e; border-radius: 4px; color: #172b4d; font-weight: 700; text-decoration: none; }
+.cta-btn:hover, .cta-btn:focus-visible { background: white; outline: 3px solid white; }
+.card, .spotlights-container { background: white; border-radius: 8px; box-shadow: 0 2px 5px rgb(0 0 0 / .12); padding: 1.25rem; }
+.card h2, .spotlights-container > h2 { color: #1d3557; margin-top: 0; }
+.events ul { line-height: 1.7; padding-left: 1.25rem; }
+.weather-now { align-items: center; display: flex; font-size: 1.1rem; gap: .5rem; }
+#forecast { display: grid; gap: .5rem; }
+#forecast div { border-top: 1px solid #ddd; display: flex; gap: .5rem; justify-content: space-between; padding-top: .5rem; text-transform: capitalize; }
+.spotlight-grid { display: grid; gap: 1rem; }
+.spotlight-card { border: 1px solid #ddd; border-radius: 6px; padding: 1rem; text-align: center; }
+.spotlight-card img { width: 100%; max-width: 250px; height: 160px; object-fit: cover; border-radius: 4px; }
+.spotlight-card h3 { color: #1d3557; margin-bottom: .5rem; }
+.spotlight-card p { margin: .5rem 0; }
+.spotlight-card a { color: #172b4d; font-weight: bold; }
