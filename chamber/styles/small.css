@@ -156,7 +156,7 @@ footer {
 
 /* Chamber home page */
 .brand { color: white; }
-.site-header h1 { color: white; margin: 0; text-align: left; }
+.site-name { color: white; font-size: 1.4rem; font-weight: bold; margin: 0; }
 .nav-toggle { background: transparent; border: 1px solid white; border-radius: 4px; color: white; cursor: pointer; font-size: 1rem; line-height: 1; padding: .5rem; }
 .site-nav { display: none; }
 .site-nav.open { display: block; }
@@ -164,7 +164,7 @@ footer {
 .hero { position: relative; grid-column: 1 / -1; overflow: hidden; border-radius: 8px; }
 .hero img { display: block; width: 100%; height: auto; min-height: 260px; object-fit: cover; }
 .cta-overlay { position: absolute; inset: auto 1rem 1rem; max-width: 38rem; padding: 1rem; background: rgb(29 53 87 / .92); color: white; border-radius: 6px; }
-.cta-overlay h2 { margin: 0; }
+.cta-overlay h1 { color: white; margin: 0; text-align: left; }
 .cta-btn { display: inline-block; padding: .7rem 1rem; background: #f4d35e; border-radius: 4px; color: #172b4d; font-weight: 700; text-decoration: none; }
 .cta-btn:hover, .cta-btn:focus-visible { background: white; outline: 3px solid white; }
 .card, .spotlights-container { background: white; border-radius: 8px; box-shadow: 0 2px 5px rgb(0 0 0 / .12); padding: 1.25rem; }
