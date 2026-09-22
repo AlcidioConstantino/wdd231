@@ -9,19 +9,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (rawDate) {
             const dateObj = new Date(rawDate);
-            formattedDate = dateObj.toLocaleString("pt-PT", {
+            formattedDate = dateObj.toLocaleString("en-US", {
                 dateStyle: "medium",
                 timeStyle: "short"
             });
         }
 
         resultsElement.innerHTML = `
-            <p><strong>Nome:</strong> ${formData.get("fname")} ${formData.get("lname")}</p>
-            <p><strong>E-mail:</strong> <a href="mailto:${formData.get("email")}">${formData.get("email")}</a></p>
-            <p><strong>Telemóvel/Celular:</strong> ${formData.get("phone")}</p>
-            <p><strong>Empresa/Organização:</strong> ${formData.get("organization")}</p>
+            <p><strong>Name:</strong> ${formData.get("fname")} ${formData.get("lname")}</p>
+            <p><strong>Email:</strong> <a href="mailto:${formData.get("email")}">${formData.get("email")}</a></p>
+            <p><strong>Mobile Phone:</strong> ${formData.get("phone")}</p>
+            <p><strong>Business / Organization:</strong> ${formData.get("organization")}</p>
 
-            <p><strong>Data de Envio:</strong> ${formattedDate}</p>
+            <p><strong>Submission Date:</strong> ${formattedDate}</p>
         `;
     }
 
