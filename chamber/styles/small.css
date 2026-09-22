@@ -179,3 +179,19 @@ footer {
 .spotlight-card h3 { color: #1d3557; margin-bottom: .5rem; }
 .spotlight-card p { margin: .5rem 0; }
 .spotlight-card a { color: #172b4d; font-weight: bold; }
+
+/* Chamber membership form */
+.join-container { display: grid; gap: 2rem; }
+.join-form, .membership-cards, .results-card { background: white; border-radius: 8px; box-shadow: 0 2px 5px rgb(0 0 0 / .12); padding: 1.25rem; }
+.join-form label { display: grid; gap: .35rem; margin-bottom: 1rem; }
+.join-form input, .join-form textarea { border: 1px solid #667085; border-radius: 4px; font: inherit; padding: .65rem; width: 100%; }
+.join-form textarea { min-height: 7rem; resize: vertical; }
+.join-form fieldset { border: 1px solid #667085; border-radius: 4px; margin: 1rem 0; padding: 1rem; }
+.join-form .radio-label { align-items: center; display: flex; gap: .5rem; }
+.join-form .radio-label input { width: auto; }
+.submit-btn, .open-modal, .close-modal { background: #1d3557; border: 0; border-radius: 4px; color: white; cursor: pointer; font: inherit; padding: .7rem 1rem; }
+.membership-cards { display: grid; gap: 1rem; }
+.membership-cards > h3 { margin: 0; }
+.membership-cards .card { border: 1px solid #d0d5dd; box-shadow: none; }
+.results-card { margin-top: 1rem; }
+.results-card a { color: #172b4d; }

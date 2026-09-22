@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição - Câmara de Comércio</title>
+    <meta name="description" content="Join the Chamber of Commerce.">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/join.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="brand">
+                <span class="course-name">Câmara de Comércio</span>
+                <span class="student-name">Alcidio Massanganhe</span>
+            </div>
+            <button id="menu-button" class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+        </div>
+        <nav id="primary-nav" class="site-nav" aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="directory.html">Diretório</a></li>
+                <li><a href="join.html" class="active" aria-current="page">Adesão</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="join-container">
+        <h2>Formulário de Adesão</h2>
+        
+        <!-- Formulário GET apontando para thankyou.html -->
+        <form method="get" action="thank%20you.html" class="join-form">
+            <label>
+                Nome *
+                <input type="text" name="fname" id="fname" required title="Informe o seu primeiro nome" autocomplete="given-name">
+            </label>
+
+            <label>
+                Sobrenome *
+                <input type="text" name="lname" id="lname" required title="Informe o seu sobrenome" autocomplete="family-name">
+            </label>
+
+            <label>
+                Título Organizacional
+                <input type="text" name="title" id="title" title="Mínimo de 7 caracteres (apenas letras, hífens e espaços)" autocomplete="organization-title" pattern="[A-Za-zÀ-ÿ\s\-]{7,}">
+            </label>
+
+            <label>
+                E-mail *
+                <input type="email" name="email" id="email" required title="Exemplo: nome@dominio.com" placeholder="exemplo@dominio.com" autocomplete="email">
+            </label>
+
+            <label>
+                Número de Celular *
+                <input type="tel" name="phone" id="phone" required title="Informe um número de telefone válido" autocomplete="tel">
+            </label>
+
+            <label>
+                Nome da Empresa / Organização *
+                <input type="text" name="organization" id="organization" required title="Nome da sua empresa ou organização" autocomplete="organization">
+            </label>
+
+            <fieldset>
+                <legend>Nível de Associação *</legend>
+                <label class="radio-label">
+                    <input type="radio" name="membership" value="np" required title="Selecione um nível de associação" autocomplete="off"> NP Membership (Sem fins lucrativos - Gratuito)
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="membership" value="bronze" title="Selecione um nível de associação" autocomplete="off"> Membro Bronze
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="membership" value="prata" title="Selecione um nível de associação" autocomplete="off"> Adesão Prata
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="membership" value="ouro" title="Selecione um nível de associação" autocomplete="off"> Membresia Ouro
+                </label>
+            </fieldset>
+
+            <label>
+                Descrição da Empresa
+                <textarea name="description" id="description" title="Descreva sucintamente sua empresa" autocomplete="off"></textarea>
+            </label>
+
+            <!-- Campo oculto para o timestamp -->
+            <input type="hidden" name="timestamp" id="timestamp" autocomplete="off">
+
+            <input type="submit" value="Finalizar Inscrição" class="submit-btn">
+        </form>
+
+        <!-- Seção de Cartões de Nível com Modais -->
+        <aside class="membership-cards">
+            <h3>Níveis de Associação</h3>
+            
+            <div class="card card-np">
+                <h4>NP Membership</h4>
+                <button type="button" class="open-modal" data-modal="modal-np">Saber Mais</button>
+            </div>
+
+            <div class="card card-bronze">
+                <h4>Membro Bronze</h4>
+                <button type="button" class="open-modal" data-modal="modal-bronze">Saber Mais</button>
+            </div>
+
+            <div class="card card-prata">
+                <h4>Adesão Prata</h4>
+                <button type="button" class="open-modal" data-modal="modal-prata">Saber Mais</button>
+            </div>
+
+            <div class="card card-ouro">
+                <h4>Membresia Ouro</h4>
+                <button type="button" class="open-modal" data-modal="modal-ouro">Saber Mais</button>
+            </div>
+        </aside>
+
+        <!-- Modais HTML <dialog> -->
+        <dialog id="modal-np">
+            <h3>NP Membership</h3>
+            <p>Destinado a organizações sem fins lucrativos. Isento de taxa de adesão.</p>
+            <ul>
+                <li>Acesso ao diretório comunitário</li>
+                <li>Participação em reuniões gerais</li>
+            </ul>
+            <button class="close-modal">Fechar</button>
+        </dialog>
+
+        <dialog id="modal-bronze">
+            <h3>Membro Bronze</h3>
+            <p>Ideal para pequenas empresas e startups em crescimento.</p>
+            <ul>
+                <li>Benefícios do nível NP</li>
+                <li>Desconto em eventos locais</li>
+                <li>Listagem destacada no diretório</li>
+            </ul>
+            <button class="close-modal">Fechar</button>
+        </dialog>
+
+        <dialog id="modal-prata">
+            <h3>Adesão Prata</h3>
+            <p>Para empresas estabelecidas que buscam maior exposição.</p>
+            <ul>
+                <li>Benefícios do nível Bronze</li>
+                <li>Destaque na página inicial (rotativo)</li>
+                <li>Acesso a treinamentos corporativos</li>
+            </ul>
+            <button class="close-modal">Fechar</button>
+        </dialog>
+
+        <dialog id="modal-ouro">
+            <h3>Membresia Ouro</h3>
+            <p>O nível mais completo para líderes do setor.</p>
+            <ul>
+                <li>Todos os benefícios dos níveis anteriores</li>
+                <li>Patrocínio de eventos principais</li>
+                <li>Publicidade prioritária em newsletters</li>
+            </ul>
+            <button class="close-modal">Fechar</button>
+        </dialog>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Câmara de Comércio | WDD 231</p>
+    </footer>
+</body>
+</html>
