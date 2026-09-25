@@ -4,7 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join the Chamber of Commerce</title>
-    <meta name="description" content="Apply to join the Chamber of Commerce.">
+    <meta name="description" content="Apply for Chamber of Commerce membership and connect your organization with local businesses, events, and community opportunities.">
+    <meta name="author" content="Alcidio Massanganhe">
+    <meta property="og:title" content="Join the Chamber of Commerce and Grow Locally">
+    <meta property="og:description" content="Apply for Chamber membership to connect with local businesses, community events, and opportunities to grow your organization.">
+    <meta property="og:image" content="https://alcidioconstantino.github.io/wdd231/chamber/images/chamber-image.jpg">
+    <meta property="og:url" content="https://alcidioconstantino.github.io/wdd231/chamber/join.html">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -31,8 +40,7 @@
     <main class="join-container">
         <h1>Chamber Membership Application</h1>
         
-        <!-- Formulário GET apontando para thankyou.html -->
-        <form method="get" action="thank%20you.html" class="join-form">
+                <form method="get" action="thankyou.html" class="join-form">
             <label>
                 First Name *
                 <input type="text" name="fname" id="fname" required title="Enter your first name" autocomplete="given-name">
@@ -84,10 +92,9 @@
                 <textarea name="description" id="description" title="Briefly describe your business" autocomplete="off"></textarea>
             </label>
 
-            <!-- Campo oculto para o timestamp -->
-            <input type="hidden" name="timestamp" id="timestamp" autocomplete="off">
+                        <input type="hidden" name="timestamp" id="timestamp" autocomplete="off">
 
-            <input type="submit" value="Submit Application" class="submit-btn">
+            <button type="submit" class="submit-btn">Submit Application</button>
         </form>
 
         <!-- Seção de Cartões de Nível com Modais -->

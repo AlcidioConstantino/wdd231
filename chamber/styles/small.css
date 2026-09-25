@@ -25,6 +25,7 @@ body {
 }
 
 .brand {
+    color: white;
     display: flex;
     flex-direction: column;
 }
@@ -41,6 +42,7 @@ body {
 /* Navigation */
 
 .site-nav {
+    display: none;
     margin-top: 1rem;
 }
 
