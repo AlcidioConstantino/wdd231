@@ -157,10 +157,10 @@ footer {
 }
 
 /* Chamber home page */
-.brand { color: white; }
+
 .site-name { color: white; font-size: 1.4rem; font-weight: bold; margin: 0; }
 .nav-toggle { background: transparent; border: 1px solid white; border-radius: 4px; color: white; cursor: pointer; font-size: 1rem; line-height: 1; padding: .5rem; }
-.site-nav { display: none; }
+
 .site-nav.open { display: block; }
 .home-grid { display: grid; gap: 1.25rem; }
 .hero { position: relative; grid-column: 1 / -1; overflow: hidden; border-radius: 8px; }
