@@ -1,0 +1,17 @@
+﻿[
+  {"id":"p01","name":"Marta Nhantumbo","category":"Electrician","city":"Maputo","rating":4.9,"phone":"+258 84 120 4501","description":"Residential wiring, lighting installation, and urgent electrical repairs.","availability":"Mon–Sat"},
+  {"id":"p02","name":"Oficina Costa do Sol","category":"Mechanic","city":"Maputo","rating":4.8,"phone":"+258 85 220 4502","description":"Vehicle diagnostics, routine servicing, and brake repairs.","availability":"Mon–Sat"},
+  {"id":"p03","name":"Amina Sitoe","category":"Tutor","city":"Matola","rating":4.9,"phone":"+258 86 320 4503","description":"Math and science tutoring for secondary school learners.","availability":"Weekdays"},
+  {"id":"p04","name":"Canalizações Chiveve","category":"Plumber","city":"Beira","rating":4.7,"phone":"+258 87 420 4504","description":"Pipe repairs, bathroom fittings, and water tank installation.","availability":"Mon–Sat"},
+  {"id":"p05","name":"Lúcia Macuácua Photography","category":"Photographer","city":"Maputo","rating":5.0,"phone":"+258 84 520 4505","description":"Portrait, family, event, and small business photography.","availability":"By appointment"},
+  {"id":"p06","name":"Casa Limpa Maputo","category":"Cleaner","city":"Maputo","rating":4.6,"phone":"+258 85 620 4506","description":"Home and office cleaning with flexible weekly plans.","availability":"Mon–Sat"},
+  {"id":"p07","name":"Construções Nhaca","category":"Builder","city":"Nampula","rating":4.8,"phone":"+258 86 720 4507","description":"Masonry, home extensions, tiling, and renovation work.","availability":"Mon–Fri"},
+  {"id":"p08","name":"Studio Beleza da Ilha","category":"Beauty","city":"Ilha de Moçambique","rating":4.9,"phone":"+258 87 820 4508","description":"Hair styling, braiding, makeup, and special occasion looks.","availability":"Tue–Sun"},
+  {"id":"p09","name":"ByteFix Moçambique","category":"Technology","city":"Maputo","rating":4.7,"phone":"+258 84 920 4509","description":"Computer repair, software setup, and small business IT support.","availability":"Mon–Sat"},
+  {"id":"p10","name":"Mãos de Inhambane","category":"Carpenter","city":"Inhambane","rating":4.8,"phone":"+258 85 130 4510","description":"Custom furniture, door fitting, and wood repairs.","availability":"Mon–Fri"},
+  {"id":"p11","name":"Joaquim Pelembe","category":"Electrician","city":"Matola","rating":4.6,"phone":"+258 86 230 4511","description":"Electrical inspections, home installations, and generator wiring.","availability":"Mon–Sat"},
+  {"id":"p12","name":"Rosa Cossa Catering","category":"Caterer","city":"Beira","rating":4.9,"phone":"+258 87 330 4512","description":"Local menus and event catering for family and business gatherings.","availability":"By appointment"},
+  {"id":"p13","name":"Auto Service Pemba","category":"Mechanic","city":"Pemba","rating":4.7,"phone":"+258 84 430 4513","description":"Motorcycle and car servicing, oil changes, and basic diagnostics.","availability":"Mon–Sat"},
+  {"id":"p14","name":"Professor Elias Mussa","category":"Tutor","city":"Quelimane","rating":4.8,"phone":"+258 85 530 4514","description":"Portuguese and English language lessons for teens and adults.","availability":"Weekdays"},
+  {"id":"p15","name":"HidroSol Serviços","category":"Plumber","city":"Tete","rating":4.6,"phone":"+258 86 630 4515","description":"Water pump installation, leak detection, and plumbing maintenance.","availability":"Mon–Sat"}
+]

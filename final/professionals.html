@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse local electricians, tutors, mechanics, plumbers, and other service providers in Mozambique on MozHub.">
+  <meta name="author" content="Alcidio Massanganhe">
+  <meta property="og:type" content="website"><meta property="og:title" content="Browse professionals | MozHub"><meta property="og:description" content="Find local services in Mozambique."><meta property="og:image" content="https://alcidioconstantino.github.io/wdd231/final/images/mozhub-mark.svg"><meta property="og:url" content="https://alcidioconstantino.github.io/wdd231/final/professionals.html">
+  <title>Find a professional | MozHub</title><link rel="icon" href="images/favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles/site.css"><script type="module" src="scripts/directory.js"></script>
+</head>
+<body><a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="MozHub home"><img src="images/mozhub-mark.svg" width="44" height="44" alt=""><span>Moz<span class="brand-accent">Hub</span></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button><nav id="primary-nav" class="site-nav" aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="professionals.html" aria-current="page">Find a professional</a></li><li><a href="join.html">Join MozHub</a></li></ul></nav></div></header>
+<main id="main" class="section-wrap directory-main"><div class="page-intro"><p class="eyebrow">THE MOZ HUB DIRECTORY</p><h1>Find your professional</h1><p>Explore local service providers and save the profiles you want to revisit.</p></div>
+<section class="directory-tools" aria-label="Filter professionals"><label>Search by name or service<input id="search-input" type="search" placeholder="Try plumber or Marta" autocomplete="off"></label><label>Service category<select id="category-filter"><option value="all">All services</option></select></label><label>City<select id="city-filter"><option value="all">All cities</option></select></label><button id="favorites-filter" class="button button-outline" type="button" aria-pressed="false">♡ Saved only</button></section>
+<p id="results-count" class="results-count" aria-live="polite">Loading professionals…</p><div id="provider-list" class="provider-grid directory-grid" aria-live="polite"></div>
+</main>
+<dialog id="provider-dialog" class="provider-dialog" aria-labelledby="dialog-name"><button class="dialog-close" type="button" aria-label="Close details">×</button><p class="eyebrow">PROVIDER PROFILE</p><h2 id="dialog-name"></h2><div id="dialog-content"></div></dialog>
+<footer class="site-footer"><div class="footer-inner"><a class="brand footer-brand" href="index.html"><img src="images/mozhub-mark.svg" width="36" height="36" alt=""><span>Moz<span class="brand-accent">Hub</span></span></a><p>Connecting Mozambique with local talent.</p><nav aria-label="Footer links"><a href="professionals.html">Professionals</a><a href="join.html">Join</a><a href="attributions.html">Attributions</a><span class="video-pending">Video demonstration: add your public link</span></nav><small>© <span data-year></span> MozHub · WDD231</small></div></footer>
+</body></html>
