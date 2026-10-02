@@ -1,0 +1,16 @@
+.discover-intro { max-width: 45rem; margin: 0 auto 1.25rem; text-align: center; line-height: 1.6; }
+.visit-message { min-height: 1.5rem; margin: 0 auto 1.25rem; padding: .85rem 1rem; max-width: 70rem; border-left: 4px solid #f4d35e; background: #fff; font-weight: 700; }
+.attractions { display: grid; gap: 1rem; grid-template-areas: "place1" "place2" "place3" "place4" "place5" "place6" "place7" "place8"; }
+.attraction-card { display: flex; flex-direction: column; background: white; border-radius: 8px; box-shadow: 0 2px 7px rgb(0 0 0 / .12); padding: 1rem; min-width: 0; }
+.attraction-1 { grid-area: place1; } .attraction-2 { grid-area: place2; } .attraction-3 { grid-area: place3; } .attraction-4 { grid-area: place4; }
+.attraction-5 { grid-area: place5; } .attraction-6 { grid-area: place6; } .attraction-7 { grid-area: place7; } .attraction-8 { grid-area: place8; }
+.attraction-card h2 { color: #1d3557; font-size: 1.2rem; margin: 0 0 .65rem; }
+.attraction-card figure { margin: 0 0 .75rem; overflow: hidden; border-radius: 5px; }
+.attraction-card img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
+.attraction-card address { font-style: normal; font-weight: 700; line-height: 1.4; }
+.attraction-card p { line-height: 1.5; flex: 1; }
+.learn-more { align-self: flex-start; background: #1d3557; border: 0; border-radius: 4px; color: white; cursor: pointer; font: inherit; font-weight: 700; padding: .65rem .9rem; }
+.learn-more:hover, .learn-more:focus-visible { background: #f4d35e; color: #172b4d; }
+@media (hover: hover) and (min-width: 641px) { .attraction-card img { transition: filter .2s ease, transform .2s ease; } .attraction-card:hover img { filter: saturate(1.2) contrast(1.05); transform: scale(1.04); } }
+@media (min-width: 641px) and (max-width: 1024px) { .attractions { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-areas: "place1 place2" "place3 place4" "place5 place6" "place7 place8"; } }
+@media (min-width: 1025px) { .attractions { grid-template-columns: repeat(4, minmax(0, 1fr)); grid-template-areas: "place1 place1 place2 place3" "place4 place5 place5 place6" "place7 place8 place8 place8"; } }

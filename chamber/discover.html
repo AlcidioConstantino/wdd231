@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Inhambane | Chamber of Commerce</title>
+  <meta name="description" content="Explore the beaches, history, culture, and natural beauty of Inhambane, Mozambique.">
+  <meta name="author" content="Alcidio Massanganhe">
+  <meta property="og:title" content="Discover Inhambane">
+  <meta property="og:description" content="Explore the places and experiences of Inhambane, Mozambique.">
+  <meta property="og:image" content="https://alcidioconstantino.github.io/wdd231/chamber/images/chamber-image.jpg">
+  <meta property="og:url" content="https://alcidioconstantino.github.io/wdd231/chamber/discover.html">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/discover.css">
+  <script type="module" src="scripts/discover.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="course-name">Chamber of Commerce</span>
+        <span class="student-name">Alcidio Massanganhe</span>
+      </div>
+      <button id="menu-button" class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="site-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="discover.html" class="active" aria-current="page">Discover</a></li>
+          <li><a href="join.html">Join</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>Discover Inhambane</h1>
+    <p class="discover-intro">From the historic city on the bay to the beaches of the Indian Ocean, Inhambane offers memorable places to explore.</p>
+    <aside id="visit-message" class="visit-message" aria-live="polite"></aside>
+    <section id="attractions" class="attractions" aria-label="Places to discover in Inhambane"></section>
+  </main>
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Chamber of Commerce | Alcidio Massanganhe</p>
+    <p>Inhambane, Mozambique</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
