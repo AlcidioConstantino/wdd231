@@ -6,7 +6,8 @@
 /* ---------- Global ---------- */
 
 :root {
-    --navy: #1D3557;
+    --navy: #123554;
+    --dark-blue: #0B2743;
     --yellow: #F4D35E;
     --white: #FFFFFF;
     --light-gray: #F1F5F9;
@@ -68,7 +69,7 @@ section {
     margin-bottom: 2rem;
     padding: 2rem;
     border-radius: 10px;
-    border-left: 6px solid var(--navy);
+    border-left: 6px solid var(--dark-blue);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
@@ -134,19 +135,24 @@ li {
 }
 
 .navy {
-    background-color: #1D3557;
+    background-color: var(--navy);
+}
+
+.dark-blue {
+    background-color: var(--dark-blue);
 }
 
 .yellow {
-    background-color: #F4D35E;
+    background-color: var(--yellow);
 }
 
 .white {
-    background-color: #FFFFFF;
+    background-color: var(--white);
+    border: 1px solid var(--border);
 }
 
 .light {
-    background-color: #F1F5F9;
+    background-color: var(--light-gray);
 }
 
 
@@ -192,7 +198,7 @@ li {
 
 .wireframe-placeholder {
     min-height: 350px;
-    border: 3px dashed var(--navy);
+    border: 3px dashed var(--dark-blue);
     background-color: var(--white);
     display: flex;
     flex-direction: column;
@@ -211,13 +217,14 @@ li {
 }
 
 
-/* If you add actual wireframe images */
+/* ---------- Wireframe Images ---------- */
 
 .wireframe img {
     display: block;
     width: 100%;
     height: auto;
-    border: 2px solid var(--navy);
+    border: 2px solid var(--dark-blue);
+    border-radius: 6px;
 }
 
 
