@@ -1,4 +1,4 @@
-﻿[
+[
   {"id":"p01","name":"Marta Nhantumbo","category":"Electrician","city":"Maputo","rating":4.9,"phone":"+258 84 120 4501","description":"Residential wiring, lighting installation, and urgent electrical repairs.","availability":"Mon–Sat"},
   {"id":"p02","name":"Oficina Costa do Sol","category":"Mechanic","city":"Maputo","rating":4.8,"phone":"+258 85 220 4502","description":"Vehicle diagnostics, routine servicing, and brake repairs.","availability":"Mon–Sat"},
   {"id":"p03","name":"Amina Sitoe","category":"Tutor","city":"Matola","rating":4.9,"phone":"+258 86 320 4503","description":"Math and science tutoring for secondary school learners.","availability":"Weekdays"},
